@@ -5,10 +5,8 @@ LivePoll is a mini end-to-end Stellar + Soroban dApp: a multi-wallet polling app
 ## Level 3 Submission Checklist (fill before submitting)
 
 - Live demo link: https://online-live-poll.vercel.app/
-- Demo video (1 minute) link: https://drive.google.com/file/d/1SRK_eF2qJyIfuN-KMlgzCpeacAeYJ23t/view?usp=sharing
 - Test output screenshot (3+ passing tests): ✅ (see below)
-- Public GitHub repo link: `https://github.com/rohit-012005/Online-Live-Poll.git`
-- 3+ meaningful commits for Level 3: ✅
+- Public GitHub repo link: `https://github.com/awanind5924-alt/online-live-poll`
 
 
 ## Submission Overview
@@ -33,53 +31,20 @@ This project demonstrates:
 - See transaction phases in the UI: `preparing`, `awaiting-signature`, `pending`, `success`, and `error`
 - Refresh poll state automatically from recent on-chain contract events
 
-## Screenshots
-
-<table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <strong>🏠 Home Page</strong><br/><br/>
-      <img width="2848" height="1572" alt="screenshot_visible_2026-04-30_17-06-27" src="https://github.com/user-attachments/assets/a1c8793f-aae9-44ed-803f-04a436d5fedd" />
-    </td>
-    <td align="center" width="50%">
-      <strong>📝 Create Poll</strong><br/><br/>
-   <img width="2848" height="1572" alt="screenshot_visible_2026-04-30_17-14-55" src="https://github.com/user-attachments/assets/1e63b7cd-6ce2-4ef4-a07b-1ecae1771c22" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <strong>🗳️ Voting</strong><br/><br/>
-   <img width="2848" height="1572" alt="screenshot_visible_2026-04-30_17-17-31" src="https://github.com/user-attachments/assets/b962d4ce-2b4e-42e4-9f8e-29774f78538d" />
-    </td>
-    <td align="center" width="50%">
-      <strong>✅ CI/CD Results</strong><br/><br/>
-    <img width="1426" height="830" alt="image" src="https://github.com/user-attachments/assets/ae849647-7b8a-412e-92b8-0fb1532a5c4a" />
-    </td>
-  </tr>
-</table>
-
-## Mobile responsive screenshots
-
-Below is a mobile view screenshot demonstrating the responsive layout on narrow screens. Replace the placeholder with a real phone-sized screenshot captured from the dev tools or a device.
-
-<div align="center">
-<img width="389" height="700" alt="2026-04-30_18-25-47" src="https://github.com/user-attachments/assets/23b9e24d-e978-4e81-9db3-dc2976486253" />
-
-</div>
 
 
 ## Deployed Contract
 
 - Network: `Stellar Testnet`
-- Contract address: `CDPYFRUN6ZRKUIKZR45AMWF7SYPQJL4WRJIBJI2SR3DWRMMANTXXRMD2`
-- Contract explorer: https://stellar.expert/explorer/testnet/contract/CDPYFRUN6ZRKUIKZR45AMWF7SYPQJL4WRJIBJI2SR3DWRMMANTXXRMD2
+- Contract address: `CCFNX337JTKZ6HJSD55NLN6LUU3VHIOWWJOHAU4J32M6QQIJ25K6A3ZU`
+- Contract explorer: https://stellar.expert/explorer/testnet/contract/CCFNX337JTKZ6HJSD55NLN6LUU3VHIOWWJOHAU4J32M6QQIJ25K6A3ZU
 
 ## Verifiable Contract Call
 
-- Deploy tx hash: `0e1e13467216b3056b5351fd7d10ea59e2bc3d3000056fe236e42d5e2cb4bcdd`
-- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/0e1e13467216b3056b5351fd7d10ea59e2bc3d3000056fe236e42d5e2cb4bcdd
-- Sample `create_poll` tx hash: `e5a4df2c3ef97235d1b33ebe043cb66ab5642d53f0319caabc9f98e2239712c8`
-- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/e5a4df2c3ef97235d1b33ebe043cb66ab5642d53f0319caabc9f98e2239712c8
+- Deploy tx hash: `a5bf9f5a73bbef57e88aabb67d0fb2cf58186f810f687468e7cf6dfc6ea7fc99`
+- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/a5bf9f5a73bbef57e88aabb67d0fb2cf58186f810f687468e7cf6dfc6ea7fc99
+- Sample `create_poll` tx hash: `a83d7d16603eadfded067152d073cd7f936f59e5d1dc3749582f7d3609dd1a7a`
+- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/a83d7d16603eadfded067152d073cd7f936f59e5d1dc3749582f7d3609dd1a7a
 
 ## Live Demo
 
@@ -140,7 +105,7 @@ For submission, include a screenshot of the terminal output showing **3+ tests p
 ```env
 VITE_STELLAR_RPC_URL=https://soroban-testnet.stellar.org
 VITE_STELLAR_NETWORK_PASSPHRASE=Test SDF Network ; September 2015
-VITE_STELLAR_CONTRACT_ID=CDPYFRUN6ZRKUIKZR45AMWF7SYPQJL4WRJIBJI2SR3DWRMMANTXXRMD2
+VITE_STELLAR_CONTRACT_ID=CCFNX337JTKZ6HJSD55NLN6LUU3VHIOWWJOHAU4J32M6QQIJ25K6A3ZU
 VITE_STELLAR_READ_ACCOUNT=
 VITE_STELLAR_EXPLORER_URL=https://stellar.expert/explorer/testnet
 VITE_POLL_CONTRACT_WASM_URL=/contracts/poll_contract.wasm
@@ -171,9 +136,6 @@ This is a standard Vite build.
 - Output directory: `dist`
 - Set the env vars from the section above (at minimum `VITE_STELLAR_CONTRACT_ID` if you deploy a new contract)
 
-## Demo Video (1 minute)
-
-https://drive.google.com/file/d/1SRK_eF2qJyIfuN-KMlgzCpeacAeYJ23t/view?usp=sharing
 
 Walkthrough:
 
@@ -200,7 +162,7 @@ Walkthrough:
 
 ## Submission Notes
 
-- GitHub repository: `https://github.com/Sagar522290/livepoll.git`
+- GitHub repository: `https://github.com/awanind5924-alt/online-live-poll`
 - The project includes multiple meaningful commits in git history
 - The contract is deployed on testnet and called from the frontend
 - Real-time event integration and visible transaction status are implemented
