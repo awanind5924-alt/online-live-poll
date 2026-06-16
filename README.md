@@ -47,9 +47,8 @@ This project demonstrates:
 
 ## 1. Multi-Wallet Integration
 
-> Replace the placeholder below with your wallet connection screenshot.
+<img width="1920" height="1080" alt="Screenshot 2026-06-16 205135" src="https://github.com/user-attachments/assets/f0de5548-a001-42c2-8f3c-9fba572fed42" />
 
-![Wallet Integration Screenshot](./docs/screenshots/wallet-selection.png)
 
 
 
